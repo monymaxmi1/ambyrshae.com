@@ -1,13 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+// Components
 import { AppComponent } from './app.component';
+import { GreetingComponent } from './../greeting/greeting.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GreetingComponent
   ],
   imports: [
     BrowserModule

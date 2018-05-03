@@ -2,12 +2,11 @@ import { Component, AfterViewInit } from '@angular/core';
 import * as anime from 'animejs';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app2.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-greeting',
+  templateUrl: './greeting.component.html',
+  styleUrls: ['./greeting.component.css']
 })
-export class AppComponent implements AfterViewInit {
-  title = 'app';
+export class GreetingComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     anime({

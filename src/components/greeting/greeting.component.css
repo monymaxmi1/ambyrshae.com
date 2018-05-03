@@ -2,9 +2,6 @@
     display: flex;
     flex-direction: column;
     font-family: var(--raleway);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10vw;
 }
 div {
     width: 70%;
