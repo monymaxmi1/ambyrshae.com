@@ -26,13 +26,28 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+button {
+    font-family: var(--raleway);
+}
+
+#text-container {
+    margin: 20px;
+}
+
+.hello-text {
+    padding: 30px 50px 0 50px;
+    text-align: justify;
+    line-height: 30px;
+}
 
 #img-div {
     grid-area: picture;
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-color: lavender; */
+    /* border-radius: 200px; */
+    /* box-shadow: 5px -2px 12px 0px rgba(0, 0, 0, 0.2); */
 }
 #img-div > img {
-    width: 40vw;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    width: 100%;
 }
