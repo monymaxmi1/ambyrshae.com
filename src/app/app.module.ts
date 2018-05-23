@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 // Components
 import { AppComponent } from './app.component';
-import { GreetingComponent } from './../greeting/greeting.component';
-import { HomeComponent } from './../home/home.component';
+import { GreetingComponent } from '../components/greeting/greeting.component';
+import { HomeComponent } from '../components/home/home.component';
 
 // Material
 import { MatButtonModule } from '@angular/material';
