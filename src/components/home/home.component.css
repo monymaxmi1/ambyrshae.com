@@ -1,0 +1,38 @@
+.home-page {
+    font-family: var(--raleway);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50vh auto;
+    grid-template-rows: 7vw 40% auto;
+    grid-template-areas: "header header" ". content" "picture content";
+}
+
+#header {
+    grid-area: header;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#header > span {
+    font-size: 5vw;
+}
+
+
+#content {
+    grid-area: content;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#img-div {
+    grid-area: picture;
+}
+#img-div > img {
+    width: 40vw;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
