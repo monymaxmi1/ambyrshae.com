@@ -8,6 +8,7 @@ import { HomeComponent } from '../components/home/home.component';
 
 // Material
 import { MatButtonModule } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { MatButtonModule } from '@angular/material';
   ],
   imports: [
     BrowserModule,
-    MatButtonModule
+    MatButtonModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

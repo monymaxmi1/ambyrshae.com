@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 50vh auto;
     grid-template-rows: 7vw 40% auto;
-    grid-template-areas: "header header" ". content" "picture content";
+    grid-template-areas: "header content" ". content" "picture content";
 }
 
 #header {
@@ -19,6 +19,7 @@
 
 #content {
     grid-area: content;
+    background-color: var(--jet);
 }
 
 #btn-container {
@@ -28,17 +29,17 @@
 }
 button {
     font-family: var(--raleway);
-    background-color: var(--gold);
 }
 
 #text-container {
-    margin: 20px;
+    color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.hello-text {
-    padding: 30px 50px 0 50px;
+.bio-text {
     text-align: justify;
-    line-height: 30px;
+    line-height: 1.5em;
+    margin-top: 0;
 }
 
 #img-div {
@@ -48,15 +49,16 @@ button {
 }
 #img-div > img {
     width: 100%;
+    z-index: 1;
 }
 
 svg {
     grid-area: picture;
-    z-index: -1;
     width: 100%;
     height: 100%;
     overflow: visible;
     fill: var(--light-grey);
+    opacity: 0.8;
     
 }
 svg > circle {
@@ -69,5 +71,26 @@ svg > circle {
     .home-page {
         grid-template-columns: 340px auto;
         grid-template-rows: 68px 304px auto;
+    }
+
+    #btn-container {
+        margin-top: 2em;
+    }
+    button {
+        font-size: 1.3em;
+    }
+
+    #text-container {
+        font-size: 1.3em;
+        width: 60vw;
+    }
+    .bio-text {
+        padding: 30px 50px 0 50px;
+    }
+ }
+
+ @media (min-width: 1250px) {
+    #text-container {
+        font-size: 1.4em;
     }
  }

@@ -5,8 +5,8 @@
 :root {
     --raleway: 'Raleway', sans-serif;
     --jet: #32322C;
-    --gold: rgba(255, 199, 0, 1);
     --light-grey: #D9DADB;
+    --white: #FFFFFF;
 }
 
 html {
