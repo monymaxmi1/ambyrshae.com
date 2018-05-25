@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 50vh auto;
     grid-template-rows: 7vw 40% auto;
-    grid-template-areas: "header content" ". content" "picture content";
+    grid-template-areas: "header content" "links content" "picture content";
 }
 
 #header {
@@ -14,6 +14,18 @@
 }
 #header > span {
     font-size: 5vw;
+}
+
+#links {
+    grid-area: links;
+}
+#links > button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 5em;
+    height: 5em;
 }
 
 
@@ -35,11 +47,23 @@ button {
     color: var(--white);
     margin-left: auto;
     margin-right: auto;
+    overflow: scroll;
 }
 .bio-text {
     text-align: justify;
     line-height: 1.5em;
     margin-top: 0;
+}
+.skills-text > h3 {
+    letter-spacing: .05em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+.skills-text > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 #img-div {
@@ -86,6 +110,13 @@ svg > circle {
     }
     .bio-text {
         padding: 30px 50px 0 50px;
+    }
+    .skills-text {
+        height: 8em;
+        padding-top: 30px;
+    }
+    .skills-text > div {
+        padding: 0 50px;
     }
  }
 

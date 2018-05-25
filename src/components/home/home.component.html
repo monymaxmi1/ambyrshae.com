@@ -2,6 +2,11 @@
     <div id="header">
         <span>ambyrshae</span>
     </div>
+    <div id="links">
+        <button mat-fab (click)="openURL('mailto:ambyrshae.jarrell@gmail.com')" style="background-image: url('../../assets/gmail.png'); background-size: 3em;"></button>
+        <button mat-fab (click)="openURL('https://www.linkedin.com/in/ambyrshae/')" style="background-image: url('../../assets/linkedin.png');" ></button>
+        <button mat-fab (click)="openURL('https://github.com/ambyrshae')" style="background-image: url('../../assets/Octocat.png');"></button>
+    </div>
     <div id="content">
         <div id="btn-container">
             <button mat-raised-button>bio</button>
@@ -22,7 +27,42 @@
                 not developing, I pass the time studying Japanese, cooking,
                 hiking, snorkling, gaming and giving pets to my 16 year old mutt, Kilo.
             </p>
-            <p id="skills-text"></p>
+            <div class="skills-text" style="display: none;">
+                <h3>Technologies</h3>
+                <div>
+                    <p>Javascript</p>
+                    <p>Angular</p>
+                    <p>Typescript</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Markup languages</p>
+                    <p>Protractor</p>
+                    <p>Java</p>
+                    <p>Spring Boot</p>
+                    <p>SQL</p>
+                    <p>JUnit</p>
+                </div>
+            </div>
+            <div class="skills-text" style="display: none;">
+                <h3>Industry Knowledge</h3>
+                <div>
+                    <p>Agile</p>
+                    <p>Scrum</p>
+                    <p>Software Development Life Cycle</p>
+                    <p>Web and Mobile Development</p>
+                    <p>Test Driven Development</p>
+                    <p>E2E Testing</p>
+                    <p>Version Control</p>
+                </div>
+            </div>
+            <div class="skills-text" style="display: none;">
+                <h3>Interpersonal Skills</h3>
+                <div>
+                    <p>Team and Project Management</p>
+                    <p>Mentorship</p>
+                    <p>Multi-team Collaboration</p>
+                </div>
+            </div>
         </div>
     </div>
     <div id="img-div">
