@@ -3,9 +3,27 @@
         <span>ambyrshae</span>
     </div>
     <div id="links">
-        <button mat-fab (click)="openURL('mailto:ambyrshae.jarrell@gmail.com')" style="background-image: url('../../assets/gmail.png'); background-size: 3em;"></button>
-        <button mat-fab (click)="openURL('https://www.linkedin.com/in/ambyrshae/')" style="background-image: url('../../assets/linkedin.png');" ></button>
-        <button mat-fab (click)="openURL('https://github.com/ambyrshae')" style="background-image: url('../../assets/Octocat.png');"></button>
+        <div style="margin-left: 3em; height: 3em;">
+            <button mat-fab 
+                    class="links-btn"
+                    (click)="openURL('mailto:ambyrshae.jarrell@gmail.com')" 
+                    style="background-image: url('../../assets/gmail.png'); background-size: 3em;">
+            </button>
+        </div>
+        <div style="margin-right: 4em; height: 5em;">
+            <button mat-fab    
+                    class="links-btn"
+                    (click)="openURL('https://www.linkedin.com/in/ambyrshae/')" 
+                    style="background-image: url('../../assets/linkedin.png'); float: right;">
+            </button>
+        </div>
+        <div style="margin-left: 5em; height: 4em;">
+            <button mat-fab 
+                    class="links-btn"
+                    (click)="openURL('https://github.com/ambyrshae')" 
+                    style="background-image: url('../../assets/Octocat.png');">
+            </button>
+        </div>
     </div>
     <div id="content">
         <div id="btn-container">

@@ -18,14 +18,17 @@
 
 #links {
     grid-area: links;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
 }
-#links > button {
+.links-btn {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
 }
 
 
