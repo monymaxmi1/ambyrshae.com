@@ -9,12 +9,12 @@ import * as anime from 'animejs';
 export class GreetingComponent implements AfterViewInit {
 
   ngAfterViewInit() {
-    anime({
-      targets: '#name .lines path',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'linear',
-      duration: 2000,
-      delay: 1500
-    });
+    // anime({
+    //   targets: '#name .lines path',
+    //   strokeDashoffset: [anime.setDashoffset, 0],
+    //   easing: 'linear',
+    //   duration: 2000,
+    //   delay: 1500
+    // });
   }
 }
