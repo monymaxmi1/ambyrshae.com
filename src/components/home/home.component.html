@@ -1,5 +1,8 @@
 <div class="home-page">
-    <div id="name">
+    <div id="header-div" class="content-text">
+        <div id="header-text">hello, i'm ambyrshae</div>
+    </div>
+    <!-- <div id="name">
         <svg width="100%" viewBox="0 0 500 500" preserveAspectRatio="none">
             <g transform="scale(0.65)" stroke="var(--jet)" stroke-width="4" class="lines" fill="none">
                 <path id="a1" d="m 64.803623,111.81046 q -5.360145,0 -9.995948,-1.73843 -4.635798,-1.73842 -7.967782,-5.07041 -3.331976,-3.33198 -5.360145,-7.388304 -2.028161,-4.056324 -2.028161,-9.416468 0,-5.215278 2.317902,-9.41647 2.317902,-4.201197 6.519093,-7.388307 4.201197,-3.187116 10.140815,-4.780671 5.93962,-1.593555 12.893319,-1.738421 5.505012,0 11.154898,1.014081 5.64988,1.014081 9.995944,2.752502 l 0,-6.084485 q 0,-9.271602 -5.21528,-14.486875 -5.215272,-5.215278 -14.776614,-5.360145 -11.44463,0 -24.048209,8.836996 l -4.201197,-8.257521 q 14.631747,-9.851076 29.408361,-9.851076 14.921482,0 23.179003,7.967781 8.257518,7.96778 8.402388,22.45466 l 0,30.857043 q 0,4.49093 4.05632,4.6358 l 0,11.01003 q -2.02816,0.28974 -3.33198,0.4346 -1.30381,0.14487 -2.7525,0.14487 -3.76659,0 -5.939621,-2.17303 -2.173035,-2.17303 -2.752509,-5.50501 l -0.28974,-5.360144 q -5.070405,6.808834 -12.748448,10.285684 -7.678046,3.47685 -16.659909,3.62172 z m 3.331977,-9.56134 q 6.808834,0 12.603585,-2.46277 5.794753,-2.462768 8.981864,-6.808832 2.752509,-2.752509 2.752509,-5.649885 l 0,-11.154891 q -9.271604,-3.621723 -19.267547,-3.621723 -9.561342,0 -15.50096,4.05633 -5.939619,4.056325 -6.084486,10.575418 0,3.187109 1.158948,5.939618 1.158953,2.752509 3.476849,4.780671 2.317902,2.028164 5.360145,3.187114 3.042243,1.15895 6.519093,1.15895 z"/>
@@ -13,11 +16,12 @@
                 <path id="e" d="m 663.16537,113.16097 q -8.67292,0 -15.87586,-3.08697 -7.20294,-3.08697 -12.3479,-8.67293 -5.14495,-5.585947 -7.93793,-12.641884 -2.79298,-7.055946 -2.93997,-15.434873 0,-8.08493 2.79297,-15.287861 2.79298,-7.20294 8.08493,-12.641891 5.29196,-5.438951 12.49489,-8.525928 7.20294,-3.08697 15.87586,-3.233972 8.67293,0 15.72886,3.233972 7.05594,3.233971 12.2009,8.525928 5.14495,5.291957 7.64393,12.494888 2.49898,7.20294 2.79298,14.846871 0,1.616986 0,2.939975 0,1.322989 -0.294,2.057985 l -63.65045,0 q 0.441,5.732948 2.64598,10.436903 2.20498,4.703964 5.73295,8.08493 3.52798,3.380975 7.93794,5.291957 4.40996,1.91099 9.55491,1.91099 3.52797,0 6.90894,-0.88199 3.38097,-0.88199 6.32094,-2.645985 2.93998,-1.763989 5.14496,-3.968968 2.20498,-2.20498 3.52797,-5.291949 l 11.1719,3.086969 q -1.91099,4.262965 -5.14496,7.790933 -3.23397,3.52797 -7.64393,6.02695 -4.40996,2.49898 -9.70191,4.11597 -5.29195,1.61699 -11.0249,1.46998 z m 26.31277,-44.981612 q -0.441,-5.438951 -2.64598,-9.995912 -2.20498,-4.556961 -5.73295,-7.937927 -3.52797,-3.380975 -8.08493,-4.997961 -4.55696,-1.616986 -9.70192,-1.910982 -5.14495,0 -9.70191,1.763988 -4.55696,1.76398 -7.93793,5.144955 -3.38097,3.380966 -5.58595,7.937927 -2.20498,4.556961 -2.64598,9.995912 l 52.03755,0 z"/>
             </g>
         </svg>
-    </div> 
+    </div>  -->
     <div id="links">
         <div>
             <button mat-fab 
                     class="links-btn"
+                    title="mailto:ambyrshae.jarrell@gmail.com"
                     (click)="openURL('mailto:ambyrshae.jarrell@gmail.com')" 
                     style="background-image: url('../../assets/gmail.png'); background-size: 5vw;">
             </button>
@@ -25,6 +29,7 @@
         <div style="margin-right: 2em;">
             <button mat-fab    
                     class="links-btn"
+                    title="https://www.linkedin.com/in/ambyrshae/"
                     (click)="openURL('https://www.linkedin.com/in/ambyrshae/')" 
                     style="background-image: url('../../assets/linkedin.png');">
             </button>
@@ -32,105 +37,30 @@
         <div>
             <button mat-fab 
                     class="links-btn"
+                    title="https://github.com/ambyrshae"
                     (click)="openURL('https://github.com/ambyrshae')" 
                     style="background-image: url('../../assets/GitHub.png'); ">
             </button>
         </div>
     </div>
     <div id="center"></div>
+    <div id="bio">
+        <div class="content-text info-text">bio</div>
+        <div class="paragraphs">
+            <p>I'm a traditionally educated and self-taught full-stack software engineer.</p>
+            <p>I have experience developing for a startup as well as a global company.</p>
+            <p>
+                I'm a New Orleanian currently based in Hawaii.
+                When I take a break from being a code-monkey, I enjoy
+                snorkling, gaming, watercoloring, running, cooking and petting 
+                my 16-year old mutt, Kilo.
+            </p>
+        </div>
+    </div>
+    <div id="skills">
+        <div class="content-text info-text">skills</div>
+        <div class="paragraphs">
+            <p>coming soon...</p>
+        </div>
+    </div>
 </div>
-<!-- <div class="home-page">
-    
-    <div id="links">
-        <div style="margin-left: 3em; height: 3em;">
-            <button mat-fab 
-                    class="links-btn"
-                    (click)="openURL('mailto:ambyrshae.jarrell@gmail.com')" 
-                    style="background-image: url('../../assets/gmail.png'); background-size: 3em;">
-            </button>
-        </div>
-        <div style="margin-right: 4em; height: 5em;">
-            <button mat-fab    
-                    class="links-btn"
-                    (click)="openURL('https://www.linkedin.com/in/ambyrshae/')" 
-                    style="background-image: url('../../assets/linkedin.png'); float: right;">
-            </button>
-        </div>
-        <div style="margin-left: 5em; height: 4em;">
-            <button mat-fab 
-                    class="links-btn"
-                    (click)="openURL('https://github.com/ambyrshae')" 
-                    style="background-image: url('../../assets/Octocat.png');">
-            </button>
-        </div>
-    </div>
-    <div id="content">
-        <div id="btn-container">
-            <button mat-button>bio</button>
-            <button mat-button>skills</button>
-        </div>
-        <div id="text-container">
-            <p class="bio-text">
-                I am a full-stack developer who is self-taught and 
-                traditionally educated. I hold a B.S in Computer Science
-                and Biology from the University of New Orleans.
-            </p>
-            <p class="bio-text">
-                I have 3 years experience developing software for a 
-                startup as well as a Fortune 500 company. 
-            </p>
-            <p class="bio-text">
-                I am a New Orleanian currently residing in Hawaii. When I'm 
-                not developing, I pass the time studying Japanese, cooking,
-                hiking, snorkling, gaming and giving pets to my 16 year old mutt, Kilo.
-            </p>
-            <div class="skills-text" style="display: none;">
-                <h3>Technologies</h3>
-                <div>
-                    <p>Javascript</p>
-                    <p>Angular</p>
-                    <p>Typescript</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
-                    <p>Markup languages</p>
-                    <p>Protractor</p>
-                    <p>Java</p>
-                    <p>Spring Boot</p>
-                    <p>SQL</p>
-                    <p>JUnit</p>
-                </div>
-            </div>
-            <div class="skills-text" style="display: none;">
-                <h3>Industry Knowledge</h3>
-                <div>
-                    <p>Agile</p>
-                    <p>Scrum</p>
-                    <p>Software Development Life Cycle</p>
-                    <p>Web and Mobile Development</p>
-                    <p>Test Driven Development</p>
-                    <p>E2E Testing</p>
-                    <p>Version Control</p>
-                </div>
-            </div>
-            <div class="skills-text" style="display: none;">
-                <h3>Interpersonal Skills</h3>
-                <div>
-                    <p>Team and Project Management</p>
-                    <p>Mentorship</p>
-                    <p>Multi-team Collaboration</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="img-div">
-        <img src="./../../assets/me.png"/>
-    </div>
-    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
-        <defs>
-            <filter id="shadow">
-                <feDropShadow dx="1" dy="0" stdDeviation="2" flood-color="rgba(0, 0, 0, 0.5)"/>
-            </filter>
-        </defs>
-        <circle cx="50" cy="60" r="70"/>
-    </svg>
-</div> -->

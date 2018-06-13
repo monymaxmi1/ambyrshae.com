@@ -26,7 +26,6 @@ export class HomeComponent implements AfterViewInit {
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'linear',
       duration: 1500,
-      backgroundColor: '#000',
       delay: 500
     });
   }

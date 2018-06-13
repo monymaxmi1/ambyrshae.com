@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 
 :root {
     --raleway: 'Raleway', sans-serif;
-    --jet: #32322C;
-    --light-grey: #D9DADB;
+    --bad-script: 'Bad Script', cursive;
+    --electric-blue: #058ED9;
+    --dark-puce: #483D3F;
+    --pastel-grey: #CFCBCA;
+    --grullo: #A39A92;
+    --deep-taupe: #77685D;
     --white: #FFFFFF;
 }
 
